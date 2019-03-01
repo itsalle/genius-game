@@ -1,0 +1,118 @@
+body {
+    background-image:url(img/fundo.jpg);
+} 
+.timer {
+    color: white;
+    display: flex;
+    font-size: 120%;
+    justify-content: center;
+}
+
+#vermelho { 
+    background-color: red;
+    border: 15px solid black;
+    border-top-right-radius:100%;
+    border: 15px solid black;
+    height: 30vh;
+    width: 30vh;
+
+}
+
+#vermelho:hover{
+    opacity:0.7;
+}
+
+#verde { 
+    background-color: green;
+    border: 15px solid black;
+    border-bottom-right-radius: 100%;
+    height: 30vh;
+    width: 30vh;
+
+}
+
+#verde:hover{
+    opacity:0.7;
+}
+
+#amarelo { 
+    background-color:yellow;
+    border: 15px solid black;
+    border-top-left-radius: 100%;
+    height: 30vh;
+    width: 30vh;
+
+}
+
+#amarelo:hover{
+    opacity:0.7;
+}
+
+#azul { 
+    background-color:blue;
+    border: 15px solid black;
+    border-bottom-left-radius: 100%;
+    height: 30vh;
+    width: 30vh;
+}
+#azul:hover{
+    opacity:0.7;
+}
+
+.main-ativo{
+    align-content:stretch;
+    align-items: center;
+    display: none;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    height: 87vh;
+    justify-content: center;
+}
+ 
+#button {
+	align-items: center;
+    display: flex;
+    flex-direction:column;
+	flex-wrap: nowrap;
+    height: 70vh;
+	justify-content: center;
+}
+
+#cust{
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    border-radius: 40px;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    border-top: 1px solid #96d1f8;
+    display: flex;
+    -moz-border-radius: 40px;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    padding: 20px 40px;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    -webkit-border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+}
+
+#cust:hover {
+    background: #28597a;
+    border-top-color: #28597a;
+    color: #ccc;
+}
+
+#cust:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+    
+#cust button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+}
